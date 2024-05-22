@@ -1,4 +1,4 @@
- export const data=[
+export const data=[
     {
         "AppID": 1,
         "AppName": "ChatGPT",
