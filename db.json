@@ -4,14 +4,15 @@
       "AppID": 1,
       "AppName": "ChatGPT",
       "AppDescription": "An AI language model that provides detailed responses and generates human-like text.",
-      "Status": "Active"
+      "Status": "Active",
+      "id": "4zd2"
     },
     {
       "AppID": 2,
       "AppName": "WeatherPro",
       "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
       "Status": "Active",
-      "id": "41d2"
+      "id": "4zd2"
     },
     {
       "AppID": 3,
@@ -68,6 +69,66 @@
       "AppDescription": "An app for book enthusiasts that offers book reviews, recommendations, and a community forum.",
       "Status": "Active",
       "id": "3369"
+    }
+  ],
+  "Division": [
+    {
+      "AppID": 2,
+      "AppName": "WeatherPro",
+      "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
+      "Status": "Active",
+      "id": "41d2"
+    },
+    {
+      "AppID": 3,
+      "AppName": "FitTrack",
+      "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
+      "Status": "Inactive",
+      "id": "aaa4"
+    },
+    {
+      "AppID": 4,
+      "AppName": "BudgetBuddy",
+      "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
+      "Status": "Active",
+      "id": "beee"
+    },
+    {
+      "AppID": 5,
+      "AppName": "TravelGuide",
+      "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
+      "Status": "Active",
+      "id": "b0ab"
+    }
+  ],
+  "Values": [
+    {
+      "AppID": 2,
+      "AppName": "Chennai",
+      "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
+      "Status": "Active",
+      "id": "41d2"
+    },
+    {
+      "AppID": 3,
+      "AppName": "Villupuram",
+      "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
+      "Status": "Inactive",
+      "id": "aaa4"
+    },
+    {
+      "AppID": 4,
+      "AppName": "Thiruvallur",
+      "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
+      "Status": "Active",
+      "id": "beee"
+    },
+    {
+      "AppID": 5,
+      "AppName": "Vellor",
+      "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
+      "Status": "Active",
+      "id": "b0ab"
     }
   ]
 }

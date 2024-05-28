@@ -15,7 +15,7 @@ const Table = () => {
     getDatas();
   }, [editId]);
   const getDatas = async () => {
-    axios.get("http://localhost:3001/users").then((res) => {
+    axios.get("http://localhost:8000/users").then((res) => {
       console.log(res.data);
       setDatas(res.data);
     });
@@ -42,7 +42,7 @@ const Table = () => {
       //     return[...prev,temp]
       // })
       axios
-        .post("http://localhost:3001/users", {
+        .post("http://localhost:8000/users", {
           AppID: Datas.length + 1,
           AppName: appName,
           AppDescription: appDescription,
@@ -60,7 +60,7 @@ const Table = () => {
       // val[0].AppDescription=appDescription
       // val[0].Status=appStatus
       axios
-        .put("http://localhost:3001/users/" + val[0].id, {
+        .put("http://localhost:8000/users/" + val[0].id, {
           AppName: appName,
           AppDescription: appDescription,
           Status: appStatus,
