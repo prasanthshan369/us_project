@@ -1,142 +1,207 @@
 {
   "users": [
     {
-      "AppID": 1,
-      "AppName": "ChatGPT",
-      "AppDescription": "An AI language model that provides detailed responses and generates human-like text.",
-      "Status": "Active",
-      "id": "4zd2"
+      "ApplicationId": 1,
+      "ApplicationName": "ChatHPT",
+      "DisplayText": "ChatHPT Pro",
+      "DisplayMessage": "ChatHPT Pro mess",
+      "ApplicationUrl": "https://ChatGPT.com",
+      "ApplicationDescription": "An AI language model that provides detailed responses and generates human-like text.",
+      "DisplayOrder": 1,
+      "SessionTimeOut": 30,
+      "Status": 1,
+      "id": "7675"
     },
     {
-      "AppID": 2,
-      "AppName": "WeatherPro",
-      "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
-      "Status": "Active",
-      "id": "41d2"
-    },
-    {
-      "AppID": 3,
-      "AppName": "FitTrack",
-      "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
-      "Status": "Inactive",
+      "ApplicationId": 2,
+      "ApplicationName": "WeatherPro",
+      "DisplayText": "Weather Pro 2",
+      "DisplayMessage": "Weather Pro mess",
+      "ApplicationUrl": "https://WeatherPro.com",
+      "ApplicationDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
+      "DisplayOrder": 16,
+      "SessionTimeOut": 26,
+      "Status": "0",
       "id": "aaa4"
     },
     {
-      "AppID": 4,
-      "AppName": "BudgetBuddy",
-      "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
-      "Status": "Active",
+      "ApplicationId": 3,
+      "ApplicationName": "FitTrack",
+      "DisplayText": "Fit Track",
+      "DisplayMessage": "Fit Track mess",
+      "ApplicationUrl": "https://FitTrack.com",
+      "ApplicationDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
+      "DisplayOrder": 3,
+      "SessionTimeOut": 30,
+      "Status": 1,
+      "id": "aa24"
+    },
+    {
+      "ApplicationId": 4,
+      "ApplicationName": "BudgetBuddy",
+      "DisplayMessage": "Budget Buddy",
+      "ApplicationUrl": "https://BudgetBuddy.com",
+      "DisplayText": "Budge tBuddy",
+      "ApplicationDescription": "A personal finance app that helps you manage your budget and expenses.",
+      "DisplayOrder": 4,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "beee"
     },
     {
-      "AppID": 5,
-      "AppName": "TravelGuide",
-      "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
-      "Status": "Active",
+      "ApplicationId": 5,
+      "ApplicationName": "TravelGuide",
+      "DisplayText": "TravelGuide",
+      "DisplayMessage": "TravelGuide",
+      "ApplicationUrl": "https://TravelGuide.com",
+      "ApplicationDescription": "An app that provides travel itineraries, local guides, and booking options.",
+      "DisplayOrder": 5,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "b0ab"
     },
     {
-      "AppID": 6,
-      "AppName": "HealthyRecipes",
-      "AppDescription": "An app offering a variety of healthy recipes and meal plans.",
-      "Status": "Inactive",
+      "ApplicationId": 6,
+      "ApplicationName": "HealthyRecipes",
+      "DisplayText": "HealthyRecipes",
+      "DisplayMessage": "HealthyRecipes",
+      "ApplicationUrl": "https://HealthyRecipes.com",
+      "ApplicationDescription": "An app offering a variety of healthy recipes and meal plans.",
+      "DisplayOrder": 6,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "f56d"
     },
     {
-      "AppID": 7,
-      "AppName": "StudyMaster",
-      "AppDescription": "An educational app that offers study materials, practice tests, and progress tracking.",
-      "Status": "Active",
+      "ApplicationId": 7,
+      "ApplicationName": "StudyMaster",
+      "DisplayText": "StudyMaster",
+      "DisplayMessage": "StudyMaster",
+      "ApplicationUrl": "https://StudyMaster.com",
+      "ApplicationDescription": "An educational app that offers study materials, practice tests, and progress tracking.",
+      "DisplayOrder": 7,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "563c"
     },
     {
-      "AppID": 8,
-      "AppName": "MovieMagic",
-      "AppDescription": "An app that recommends movies based on your preferences and provides streaming options.",
-      "Status": "Active",
+      "ApplicationId": 8,
+      "ApplicationName": "MovieMagic",
+      "DisplayText": "MovieMagic",
+      "DisplayMessage": "MovieMagic",
+      "ApplicationUrl": "https://MovieMagic.com",
+      "ApplicationDescription": "An app that recommends movies based on your preferences and provides streaming options.",
+      "DisplayOrder": 8,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "a554"
     },
     {
-      "AppID": 9,
-      "AppName": "HomeSecure",
-      "AppDescription": "A home security app that connects with your security devices and provides real-time alerts.",
-      "Status": "Inactive",
+      "ApplicationId": 9,
+      "ApplicationName": "HomeSecure",
+      "DisplayText": "HomeSecure",
+      "DisplayMessage": "HomeSecure",
+      "ApplicationUrl": "https://HomeSecure.com",
+      "ApplicationDescription": "A home security app that connects with your security devices and provides real-time alerts.",
+      "DisplayOrder": 9,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "86d9"
     },
     {
-      "AppID": 10,
-      "AppName": "BookLovers",
-      "AppDescription": "An app for book enthusiasts that offers book reviews, recommendations, and a community forum.",
-      "Status": "Active",
+      "ApplicationId": 10,
+      "ApplicationName": "BookLovers",
+      "DisplayText": "Book Lovers",
+      "DisplayMessage": "Book Lovers",
+      "ApplicationUrl": "https://BookLovers.com",
+      "ApplicationDescription": "An app for book enthusiasts that offers book reviews, recommendations, and a community forum.",
+      "DisplayOrder": 10,
+      "SessionTimeOut": 30,
+      "Status": 1,
       "id": "3369"
+    },
+    {
+      "ApplicationId": 11,
+      "ApplicationName": "test",
+      "DisplayText": "test",
+      "DisplayMessage": "test",
+      "ApplicationUrl": "test.com",
+      "ApplicationDescription": "test",
+      "DisplayOrder": 10,
+      "SessionTimeOut": 10,
+      "Status": 1,
+      "id": "7253"
+    },
+    {
+      "id": "5c40",
+      "ApplicationId": 12,
+      "ApplicationName": "test2",
+      "ApplicationDescription": "test2",
+      "Status": 1,
+      "DisplayText": "test2",
+      "DisplayMessage": "test2",
+      "ApplicationUrl": "test2.com",
+      "DisplayOrder": 1,
+      "SessionTimeOut": 1
     }
   ],
   "Division": [
     {
-    "id": "4zd2",
-      "values": [
-    {
-      "AppID": 2,
-      "AppName": "Madras",
-      "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
+      "DivisionId": 2,
+      "DivisionName": "Division 2",
       "Status": "Active",
-      "id": "4zd2"
+      "id": "2"
     },
     {
-      "id": "4zd2",
-      "AppID": 1,
-      "AppName": "Villupuram",
-      "AppDescription": "des",
-      "Status": "appStatus"
-    }]
+      "DivisionId": 3,
+      "DivisionName": "Division 3",
+      "Status": "Active",
+      "id": "aaa4"
+    },
+    {
+      "DivisionId": 4,
+      "DivisionName": "Division 4",
+      "Status": "Active",
+      "id": "aaa4"
+    },
+    {
+      "DivisionId": 5,
+      "DivisionName": "Division 5",
+      "Status": "Active",
+      "id": "aaa4"
+    },
+    {
+      "DivisionId": 6,
+      "DivisionName": "Division 6",
+      "Status": "Active",
+      "id": "aaa4"
     }
+    
   ],
   "Values": [
     {
-      "id": "4zd2",
-      "values": [
-        {
-          "AppID": 1,
-          "AppName": "Madras",
-          "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
-          "Status": "Active",
-          "id": "4zd2"
-        },
-        {
-          "AppID": 2,
-          "AppName": "Chennai",
-          "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
-          "Status": "Active",
-          "id": "4zd2"
-        },
-        {
-          "AppID": 3,
-          "AppName": "Villupuram",
-          "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
-          "Status": "Inactive",
-          "id": "4zd2"
-        }
-      ]
+      "AppID": 1,      
+      "DivisionName": "Division 1",      
+      "Status": "Active",
+      "id": "1"
     },
     {
-      "id": "41d2",
-      "values": [
-        {
-          "AppID": 4,
-          "AppName": "Thiruvallur",
-          "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
-          "Status": "Active",
-          "id": "41d2"
-        },
-        {
-          "AppID": 5,
-          "AppName": "Vellor",
-          "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
-          "Status": "Active",
-          "id": "41d2"
-        }
-      ]
+      "AppID": 2,
+      "DivisionName": "Division 2",
+      "Status": "Inactive",
+      "id": "2"
+    },
+    {
+      "AppID": 3,
+      "DivisionName": "Division 3",
+      "Status": "Active",
+      "id": "3"
+    },
+    {
+      "AppID": 4,
+      "DivisionName": "Division 4",
+      "Status": "Active",
+      "id": "4"
     }
-  ],
-  "Citiys": []
+  ]
 }
