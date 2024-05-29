@@ -12,7 +12,7 @@
       "AppName": "WeatherPro",
       "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
       "Status": "Active",
-      "id": "4zd2"
+      "id": "41d2"
     },
     {
       "AppID": 3,
@@ -73,62 +73,70 @@
   ],
   "Division": [
     {
+    "id": "4zd2",
+      "values": [
+    {
       "AppID": 2,
-      "AppName": "WeatherPro",
+      "AppName": "Madras",
       "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
       "Status": "Active",
-      "id": "41d2"
+      "id": "4zd2"
     },
     {
-      "AppID": 3,
-      "AppName": "FitTrack",
-      "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
-      "Status": "Inactive",
-      "id": "aaa4"
-    },
-    {
-      "AppID": 4,
-      "AppName": "BudgetBuddy",
-      "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
-      "Status": "Active",
-      "id": "beee"
-    },
-    {
-      "AppID": 5,
-      "AppName": "TravelGuide",
-      "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
-      "Status": "Active",
-      "id": "b0ab"
+      "id": "4zd2",
+      "AppID": 1,
+      "AppName": "Villupuram",
+      "AppDescription": "des",
+      "Status": "appStatus"
+    }]
     }
   ],
   "Values": [
     {
-      "AppID": 2,
-      "AppName": "Chennai",
-      "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
-      "Status": "Active",
-      "id": "41d2"
+      "id": "4zd2",
+      "values": [
+        {
+          "AppID": 1,
+          "AppName": "Madras",
+          "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
+          "Status": "Active",
+          "id": "4zd2"
+        },
+        {
+          "AppID": 2,
+          "AppName": "Chennai",
+          "AppDescription": "A weather forecasting app that provides accurate weather updates and alerts.",
+          "Status": "Active",
+          "id": "4zd2"
+        },
+        {
+          "AppID": 3,
+          "AppName": "Villupuram",
+          "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
+          "Status": "Inactive",
+          "id": "4zd2"
+        }
+      ]
     },
     {
-      "AppID": 3,
-      "AppName": "Villupuram",
-      "AppDescription": "A fitness tracking app that monitors your workouts, diet, and sleep patterns.",
-      "Status": "Inactive",
-      "id": "aaa4"
-    },
-    {
-      "AppID": 4,
-      "AppName": "Thiruvallur",
-      "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
-      "Status": "Active",
-      "id": "beee"
-    },
-    {
-      "AppID": 5,
-      "AppName": "Vellor",
-      "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
-      "Status": "Active",
-      "id": "b0ab"
+      "id": "41d2",
+      "values": [
+        {
+          "AppID": 4,
+          "AppName": "Thiruvallur",
+          "AppDescription": "A personal finance app that helps you manage your budget and expenses.",
+          "Status": "Active",
+          "id": "41d2"
+        },
+        {
+          "AppID": 5,
+          "AppName": "Vellor",
+          "AppDescription": "An app that provides travel itineraries, local guides, and booking options.",
+          "Status": "Active",
+          "id": "41d2"
+        }
+      ]
     }
-  ]
+  ],
+  "Citiys": []
 }

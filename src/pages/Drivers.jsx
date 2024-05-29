@@ -5,6 +5,7 @@ import axios from 'axios';
 const Drivers = () => {
   const [datas, setDatas] = useState([])
   const [selectedItem, setselectedItem] = useState([])
+  const [selectedDivisionItem, setselectedDivisionItem] = useState()
   const [Divisions, setDivisions] = useState([])
   const [dropDownVal, setdropDownVal] = useState([{ value: 'chocolate', label: 'Chocolate' }])
   useEffect(()=>{
@@ -28,14 +29,42 @@ const Drivers = () => {
     getDevisions(value)
   }
   const getDevisions=(value)=>{
-    axios.get('http://localhost:8000/Division/'+value).then((res)=>{
-      console.log(res);  
-      setselectedItem([res.data])
+    var Devs=[]
+    axios.get('http://localhost:8000/Division/'+value).then(({data})=>{
+      console.log(data);  
+      Devs=data.values
+      setDivisions(data.values)
       }).catch((err)=>{
         if(err.message=='Request failed with status code 404'){
-          setselectedItem([])
+          setDivisions([])
         }
       })
+      axios.get('http://localhost:8000/Values/'+value).then(({data})=>{
+        console.log('Values',data); 
+        console.log('Devs',Devs); 
+
+        var tempValue=[]
+  
+        for(let i=0;i<data.values.length;i++){
+        for(let j=0;j<Devs.length;j++){
+          if(Devs[j].AppName !==data.values[i].AppName){
+            if(tempValue.length==0){
+          tempValue.push({ value:data.values[i].id, label:data.values[i].AppName })
+            }else{
+           if(tempValue.filter((item)=>item.label==data.values[i].AppName).length==0){
+          tempValue.push({ value:data.values[i].id, label:data.values[i].AppName })
+           }
+          }
+          }
+        }
+
+        }
+        setselectedItem(tempValue)
+        }).catch((err)=>{
+          if(err.message=='Request failed with status code 404'){
+            setselectedItem([])
+          }
+        })
   }
 
   const customStyles = {
@@ -51,7 +80,23 @@ const Drivers = () => {
     });
   }
   const handleSelectDevision=(selected)=>{
-    console.log(selected);
+    setselectedDivisionItem(selected)
+  }
+  const handleNewDevision=()=>{
+    const {value,label}=selectedDivisionItem
+
+    axios
+    .post("http://localhost:8000/Division", {
+      AppID:1,
+      AppName:label,
+      AppDescription: 'des',
+      Status: 'appStatus',
+      id:value
+    })
+    .then((res) => {
+      console.log(res, "red----");
+      getDevisions(value)
+    });
   }
   return (
     <div className='flex '>
@@ -83,7 +128,7 @@ const Drivers = () => {
             </tr>
           </thead>
           <tbody className="w-full  overflow-y-scroll">
-            {selectedItem.map((item, index) =>
+            {Divisions.map((item, index) =>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                   <th
                     scope="row"
@@ -112,9 +157,9 @@ const Drivers = () => {
         </table>
       </div>
       <div className='my-1 p-2 flex justify-between items-center shadow '>
-      <Select id='search' styles={customStyles}  options={Divisions} className='w-[200px] my-1'   onChange={handleSelectDevision} />
+      <Select id='search' styles={customStyles}  options={selectedItem} className='w-[200px] my-1'   onChange={handleSelectDevision} />
       <button
-        // onClick={handleNewEntry}
+        onClick={handleNewDevision}
         type="submit"
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2 my-2 ml-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
