@@ -128,9 +128,9 @@ const Table: React.FC = () => {
         });
     };
 
-    return (<div> <button onClick={handleNewEntry} type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2 my-2 ml-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" > Add New </button>
+    return (<div> <button onClick={handleNewEntry} type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-1 my-2 ml-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" > Add New </button>
 
-        <div className=" w-full mt-1 max-h-[520px] overflow-auto shadow-md sm:rounded-lg">
+        <div className=" w-full mt-1 max-h-[470px] overflow-auto shadow-md sm:rounded-lg">
             <table className="w-full  text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400 border-collapse">
                 <thead className="text-xxs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border">
                     <tr>

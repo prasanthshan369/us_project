@@ -147,6 +147,12 @@
   ],
   "Division": [
     {
+      "DivisionId": 1,
+      "DivisionName": "Division 1",
+      "Status": "Active",
+      "id": "2"
+    },
+    {
       "DivisionId": 2,
       "DivisionName": "Division 2",
       "Status": "Active",
@@ -176,15 +182,8 @@
       "Status": "Active",
       "id": "aaa4"
     }
-    
   ],
   "Values": [
-    {
-      "AppID": 1,      
-      "DivisionName": "Division 1",      
-      "Status": "Active",
-      "id": "1"
-    },
     {
       "AppID": 2,
       "DivisionName": "Division 2",
@@ -202,6 +201,36 @@
       "DivisionName": "Division 4",
       "Status": "Active",
       "id": "4"
+    },
+    {
+      "id": "1",
+      "AppID": 1,
+      "DivisionName": "Division 6",
+      "Status": "Active"
+    },
+    {
+      "id": "1",
+      "AppID": 2,
+      "DivisionName": "Division 1",
+      "Status": "Active"
+    },
+    {
+      "id": "1",
+      "AppID": 2,
+      "DivisionName": "Division 3",
+      "Status": "Active"
+    },
+    {
+      "id": "1",
+      "AppID": 1,
+      "DivisionName": "Division 1",
+      "Status": "Active"
+    },
+    {
+      "id": "1",
+      "AppID": 1,
+      "DivisionName": "Division 3",
+      "Status": "Active"
     }
   ]
 }
